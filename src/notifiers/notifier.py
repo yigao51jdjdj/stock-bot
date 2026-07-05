@@ -96,12 +96,10 @@ class EmailNotifier:
             msg.attach(MIMEText(message, 'plain', 'utf-8'))
 
             if self.use_ssl:
-                # 使用 SSL 连接 (端口 465)
                 with smtplib.SMTP_SSL(self.smtp_host, self.smtp_port, timeout=10) as server:
                     server.login(self.sender, self.password)
                     server.send_message(msg)
             else:
-                # 使用 TLS 连接 (端口 587)
                 with smtplib.SMTP(self.smtp_host, self.smtp_port, timeout=10) as server:
                     server.starttls()
                     server.login(self.sender, self.password)
@@ -116,29 +114,50 @@ class StockMessageFormatter:
     """股票消息格式化"""
 
     @staticmethod
+    def _format_volume(value):
+        """格式化成交量"""
+        if value is None:
+            return '-'
+        if value >= 1e9:
+            return f"{value/1e9:.2f}B"
+        elif value >= 1e6:
+            return f"{value/1e6:.2f}M"
+        elif value >= 1e3:
+            return f"{value/1e3:.2f}K"
+        else:
+            return f"{value:,.0f}"
+
+    @staticmethod
+    def _format_change(change_pct):
+        """格式化涨跌幅"""
+        if change_pct is None:
+            return '-'
+        sign = '+' if change_pct >= 0 else ''
+        return f"{sign}{change_pct:.2f}%"
+
+    @staticmethod
     def format_price_alert(stock_data: Dict[str, Dict]) -> str:
         """格式化价格提醒消息"""
         lines = []
         lines.append("📊 股票行情提醒")
-        lines.append("=" * 30)
+        lines.append("=" * 55)
         lines.append("")
 
         for symbol, data in stock_data.items():
             if 'currentPrice' in data and data['currentPrice']:
                 price = data['currentPrice']
-                name = data.get('name', symbol)
-                currency = data.get('currency', 'USD')
-                prev_close = data.get('previousClose')
-                change_pct = ""
-                if prev_close and prev_close > 0:
-                    change = ((price - prev_close) / prev_close) * 100
-                    change_pct = " ({:+.2f}%)".format(change)
-                lines.append("{} {} - {} {}{}".format(symbol, name[:20], price, currency, change_pct))
+                change_pct = data.get('changePercent')
+                volume = StockMessageFormatter._format_volume(data.get('volume'))
+                high = StockMessageFormatter._format_volume(data.get('todayHigh'))
+                low = StockMessageFormatter._format_volume(data.get('todayLow'))
+
+                change_str = StockMessageFormatter._format_change(change_pct)
+                lines.append(f"{symbol:6s} | {price:>10.2f} | {change_str:>10s} | Vol: {volume:>10s}")
             else:
-                lines.append("{} - 数据获取失败".format(symbol))
+                lines.append(f"{symbol:6s} | 数据获取失败")
 
         lines.append("")
-        lines.append("⏰ {}".format(datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
+        lines.append(f"⏰ {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         return "\n".join(lines)
 
     @staticmethod
@@ -146,7 +165,7 @@ class StockMessageFormatter:
         """格式化汇总消息"""
         lines = []
         lines.append("📈 每日股票行情汇总")
-        lines.append("=" * 30)
+        lines.append("=" * 65)
         lines.append("")
 
         # 分组显示
@@ -161,21 +180,24 @@ class StockMessageFormatter:
         ]
 
         for group_name, group_symbols in groups:
-            lines.append("【{}】".format(group_name))
+            lines.append(f"【{group_name}】")
+            lines.append(f"{'代码':6s} | {'价格':>10s} | {'涨跌幅':>10s} | {'成交量':>10s} | {'今日高':>10s} | {'今日低':>10s}")
+            lines.append("-" * 75)
+
             for sym in group_symbols:
                 if sym in stock_data and 'currentPrice' in stock_data[sym]:
                     data = stock_data[sym]
-                    price = data['currentPrice']
-                    name = data.get('name', sym)[:15]
-                    prev_close = data.get('previousClose')
-                    change_pct = ""
-                    if prev_close and prev_close > 0:
-                        change = ((price - prev_close) / prev_close) * 100
-                        change_pct = " ({:+.2f}%)".format(change)
-                    lines.append("  {} {:15s} {:>10.2f}{}".format(sym, name, price, change_pct))
+                    price = data.get('currentPrice', 0)
+                    change_pct = data.get('changePercent')
+                    volume = StockMessageFormatter._format_volume(data.get('volume'))
+                    high = StockMessageFormatter._format_volume(data.get('todayHigh'))
+                    low = StockMessageFormatter._format_volume(data.get('todayLow'))
+                    change_str = StockMessageFormatter._format_change(change_pct)
+
+                    lines.append(f"{sym:6s} | {price:>10.2f} | {change_str:>10s} | {volume:>10s} | {high:>10s} | {low:>10s}")
             lines.append("")
 
-        lines.append("⏰ {}".format(datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
+        lines.append(f"⏰ {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
         return "\n".join(lines)
 
 
