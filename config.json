@@ -50,13 +50,13 @@
       "webhook_url": "YOUR_WEBHOOK_URL"
     },
     "email": {
-      "enabled": true,
+      "enabled": false,
       "smtp_host": "smtp.mail.me.com",
       "smtp_port": 465,
       "use_ssl": true,
-      "sender": "gao_hong1@icloud.com",
-      "password": "cudt-imxa-cwct-tfze",
-      "receiver": "gao_hong1@icloud.com"
+      "sender": "your_email@icloud.com",
+      "password": "your_app_password",
+      "receiver": "your_email@icloud.com"
     }
   }
 }

@@ -57,15 +57,16 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
-# 本地配置
+# 本地配置（包含敏感信息）
 .env
 .env.local
 config.local.json
+config.json
 
-# 数据文件 (可选，如果你想忽略历史数据)
-# data/
-# *.json
-# *.csv
+# 数据文件
+data/*.json
+data/*.csv
+!data/.gitkeep
 
 # 依赖
 node_modules/
@@ -77,3 +78,4 @@ package-lock.json
 # 测试文件
 test_*.py
 quick_test.py
+test_api.py
