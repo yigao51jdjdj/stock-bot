@@ -1,0 +1,1107 @@
+{
+  "timestamp": "20260705_105413",
+  "global_market": {
+    "current": {
+      "AAPL": {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "currentPrice": 308.63,
+        "previousClose": null,
+        "currency": "USD",
+        "exchange": "NMS",
+        "marketCap": null,
+        "timestamp": "2026-07-05T10:54:14.357309"
+      },
+      "GOOGL": {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "currentPrice": 359.91,
+        "previousClose": null,
+        "currency": "USD",
+        "exchange": "NMS",
+        "marketCap": null,
+        "timestamp": "2026-07-05T10:54:15.527930"
+      },
+      "MSFT": {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "currentPrice": 390.49,
+        "previousClose": null,
+        "currency": "USD",
+        "exchange": "NMS",
+        "marketCap": null,
+        "timestamp": "2026-07-05T10:54:16.785933"
+      },
+      "AMZN": {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "currentPrice": 242.67,
+        "previousClose": null,
+        "currency": "USD",
+        "exchange": "NMS",
+        "marketCap": null,
+        "timestamp": "2026-07-05T10:54:17.962727"
+      },
+      "TSLA": {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "currentPrice": 393.45,
+        "previousClose": null,
+        "currency": "USD",
+        "exchange": "NMS",
+        "marketCap": null,
+        "timestamp": "2026-07-05T10:54:19.134060"
+      }
+    },
+    "historical": {
+      "AAPL": [
+        {
+          "date": "2026-06-03 13:30:00",
+          "Open": 314.17999267578125,
+          "High": 316.94000244140625,
+          "Low": 308.8500061035156,
+          "Close": 310.260009765625,
+          "Volume": 50836700.0
+        },
+        {
+          "date": "2026-06-04 13:30:00",
+          "Open": 313.2300109863281,
+          "High": 313.5400085449219,
+          "Low": 309.6499938964844,
+          "Close": 311.2300109863281,
+          "Volume": 44869100.0
+        },
+        {
+          "date": "2026-06-05 13:30:00",
+          "Open": 312.8599853515625,
+          "High": 315.1700134277344,
+          "Low": 307.1499938964844,
+          "Close": 307.3399963378906,
+          "Volume": 65310500.0
+        },
+        {
+          "date": "2026-06-08 13:30:00",
+          "Open": 308.739990234375,
+          "High": 317.3999938964844,
+          "Low": 301.1700134277344,
+          "Close": 301.5400085449219,
+          "Volume": 77949100.0
+        },
+        {
+          "date": "2026-06-09 13:30:00",
+          "Open": 300.2799987792969,
+          "High": 300.75,
+          "Low": 287.7799987792969,
+          "Close": 290.54998779296875,
+          "Volume": 70108800.0
+        },
+        {
+          "date": "2026-06-10 13:30:00",
+          "Open": 290.739990234375,
+          "High": 294.75,
+          "Low": 287.3800048828125,
+          "Close": 291.5799865722656,
+          "Volume": 52793300.0
+        },
+        {
+          "date": "2026-06-11 13:30:00",
+          "Open": 293.7200012207031,
+          "High": 297.0,
+          "Low": 289.5899963378906,
+          "Close": 295.6300048828125,
+          "Volume": 42572500.0
+        },
+        {
+          "date": "2026-06-12 13:30:00",
+          "Open": 296.0299987792969,
+          "High": 297.1400146484375,
+          "Low": 289.6199951171875,
+          "Close": 291.1300048828125,
+          "Volume": 38742100.0
+        },
+        {
+          "date": "2026-06-15 13:30:00",
+          "Open": 294.1199951171875,
+          "High": 297.7799987792969,
+          "Low": 291.70001220703125,
+          "Close": 296.4200134277344,
+          "Volume": 45732600.0
+        },
+        {
+          "date": "2026-06-16 13:30:00",
+          "Open": 295.25,
+          "High": 300.4800109863281,
+          "Low": 293.9700012207031,
+          "Close": 299.239990234375,
+          "Volume": 39874400.0
+        },
+        {
+          "date": "2026-06-17 13:30:00",
+          "Open": 300.8500061035156,
+          "High": 302.07000732421875,
+          "Low": 294.3599853515625,
+          "Close": 295.95001220703125,
+          "Volume": 42745100.0
+        },
+        {
+          "date": "2026-06-18 13:30:00",
+          "Open": 298.1099853515625,
+          "High": 300.57000732421875,
+          "Low": 295.6199951171875,
+          "Close": 298.010009765625,
+          "Volume": 85962200.0
+        },
+        {
+          "date": "2026-06-22 13:30:00",
+          "Open": 297.30999755859375,
+          "High": 302.4200134277344,
+          "Low": 296.760009765625,
+          "Close": 297.010009765625,
+          "Volume": 44879900.0
+        },
+        {
+          "date": "2026-06-23 13:30:00",
+          "Open": 297.5400085449219,
+          "High": 301.6400146484375,
+          "Low": 294.17999267578125,
+          "Close": 294.29998779296875,
+          "Volume": 52010900.0
+        },
+        {
+          "date": "2026-06-24 13:30:00",
+          "Open": 295.3599853515625,
+          "High": 299.70001220703125,
+          "Low": 292.94000244140625,
+          "Close": 293.0799865722656,
+          "Volume": 53081900.0
+        },
+        {
+          "date": "2026-06-25 13:30:00",
+          "Open": 287.3999938964844,
+          "High": 288.79998779296875,
+          "Low": 273.75,
+          "Close": 275.1499938964844,
+          "Volume": 107013700.0
+        },
+        {
+          "date": "2026-06-26 13:30:00",
+          "Open": 275.0,
+          "High": 285.95001220703125,
+          "Low": 274.2099914550781,
+          "Close": 283.7799987792969,
+          "Volume": 261775500.0
+        },
+        {
+          "date": "2026-06-29 13:30:00",
+          "Open": 286.7300109863281,
+          "High": 288.3699951171875,
+          "Low": 279.8500061035156,
+          "Close": 281.739990234375,
+          "Volume": 66427000.0
+        },
+        {
+          "date": "2026-06-30 13:30:00",
+          "Open": 281.1700134277344,
+          "High": 289.94000244140625,
+          "Low": 280.70001220703125,
+          "Close": 289.3599853515625,
+          "Volume": 65100200.0
+        },
+        {
+          "date": "2026-07-01 13:30:00",
+          "Open": 293.44000244140625,
+          "High": 296.5899963378906,
+          "Low": 289.20001220703125,
+          "Close": 294.3800048828125,
+          "Volume": 50164200.0
+        },
+        {
+          "date": "2026-07-02 13:30:00",
+          "Open": 294.1199951171875,
+          "High": 309.4200134277344,
+          "Low": 293.67999267578125,
+          "Close": 308.6300048828125,
+          "Volume": 75352800.0
+        }
+      ],
+      "GOOGL": [
+        {
+          "date": "2026-06-03 13:30:00",
+          "Open": 362.0299987792969,
+          "High": 366.45001220703125,
+          "Low": 358.0799865722656,
+          "Close": 358.989990234375,
+          "Volume": 55441600.0
+        },
+        {
+          "date": "2026-06-04 13:30:00",
+          "Open": 358.8999938964844,
+          "High": 373.25,
+          "Low": 358.2099914550781,
+          "Close": 372.19000244140625,
+          "Volume": 44055500.0
+        },
+        {
+          "date": "2026-06-05 13:30:00",
+          "Open": 366.3399963378906,
+          "High": 372.0799865722656,
+          "Low": 364.1199951171875,
+          "Close": 368.5299987792969,
+          "Volume": 37471200.0
+        },
+        {
+          "date": "2026-06-08 13:30:00",
+          "Open": 365.17999267578125,
+          "High": 366.20001220703125,
+          "Low": 360.5299987792969,
+          "Close": 363.30999755859375,
+          "Volume": 27942500.0
+        },
+        {
+          "date": "2026-06-09 13:30:00",
+          "Open": 367.0899963378906,
+          "High": 372.0799865722656,
+          "Low": 357.29998779296875,
+          "Close": 364.260009765625,
+          "Volume": 29535100.0
+        },
+        {
+          "date": "2026-06-10 13:30:00",
+          "Open": 363.19000244140625,
+          "High": 368.55999755859375,
+          "Low": 355.20001220703125,
+          "Close": 356.3800048828125,
+          "Volume": 32357100.0
+        },
+        {
+          "date": "2026-06-11 13:30:00",
+          "Open": 355.92999267578125,
+          "High": 358.79998779296875,
+          "Low": 346.3599853515625,
+          "Close": 357.7699890136719,
+          "Volume": 35538200.0
+        },
+        {
+          "date": "2026-06-12 13:30:00",
+          "Open": 362.6199951171875,
+          "High": 366.57000732421875,
+          "Low": 354.94000244140625,
+          "Close": 359.67999267578125,
+          "Volume": 24704600.0
+        },
+        {
+          "date": "2026-06-15 13:30:00",
+          "Open": 367.92999267578125,
+          "High": 372.989990234375,
+          "Low": 366.54998779296875,
+          "Close": 369.3500061035156,
+          "Volume": 27727500.0
+        },
+        {
+          "date": "2026-06-16 13:30:00",
+          "Open": 369.6000061035156,
+          "High": 376.0,
+          "Low": 367.05999755859375,
+          "Close": 373.25,
+          "Volume": 24876100.0
+        },
+        {
+          "date": "2026-06-17 13:30:00",
+          "Open": 369.1300048828125,
+          "High": 372.3299865722656,
+          "Low": 362.0199890136719,
+          "Close": 363.7900085449219,
+          "Volume": 24543600.0
+        },
+        {
+          "date": "2026-06-18 13:30:00",
+          "Open": 365.75,
+          "High": 369.4800109863281,
+          "Low": 358.6700134277344,
+          "Close": 368.0299987792969,
+          "Volume": 44470100.0
+        },
+        {
+          "date": "2026-06-22 13:30:00",
+          "Open": 357.95001220703125,
+          "High": 358.9200134277344,
+          "Low": 341.7200012207031,
+          "Close": 349.67999267578125,
+          "Volume": 52814800.0
+        },
+        {
+          "date": "2026-06-23 13:30:00",
+          "Open": 340.69000244140625,
+          "High": 349.2900085449219,
+          "Low": 340.20001220703125,
+          "Close": 346.1300048828125,
+          "Volume": 34007700.0
+        },
+        {
+          "date": "2026-06-24 13:30:00",
+          "Open": 349.0400085449219,
+          "High": 353.4800109863281,
+          "Low": 341.92999267578125,
+          "Close": 345.2900085449219,
+          "Volume": 44997300.0
+        },
+        {
+          "date": "2026-06-25 13:30:00",
+          "Open": 336.7300109863281,
+          "High": 345.57000732421875,
+          "Low": 335.8399963378906,
+          "Close": 343.7099914550781,
+          "Volume": 44491400.0
+        },
+        {
+          "date": "2026-06-26 13:30:00",
+          "Open": 342.54998779296875,
+          "High": 346.3599853515625,
+          "Low": 330.20001220703125,
+          "Close": 337.3900146484375,
+          "Volume": 114706300.0
+        },
+        {
+          "date": "2026-06-29 13:30:00",
+          "Open": 341.8299865722656,
+          "High": 354.3500061035156,
+          "Low": 340.6700134277344,
+          "Close": 353.6499938964844,
+          "Volume": 34213900.0
+        },
+        {
+          "date": "2026-06-30 13:30:00",
+          "Open": 353.8699951171875,
+          "High": 358.6199951171875,
+          "Low": 350.3999938964844,
+          "Close": 357.3699951171875,
+          "Volume": 35237200.0
+        },
+        {
+          "date": "2026-07-01 13:30:00",
+          "Open": 358.3699951171875,
+          "High": 362.9700012207031,
+          "Low": 356.42999267578125,
+          "Close": 361.2099914550781,
+          "Volume": 26736400.0
+        },
+        {
+          "date": "2026-07-02 13:30:00",
+          "Open": 359.4800109863281,
+          "High": 364.2099914550781,
+          "Low": 353.4200134277344,
+          "Close": 359.9100036621094,
+          "Volume": 25974800.0
+        }
+      ],
+      "MSFT": [
+        {
+          "date": "2026-06-03 13:30:00",
+          "Open": 438.45001220703125,
+          "High": 440.3900146484375,
+          "Low": 424.25,
+          "Close": 427.3399963378906,
+          "Volume": 39037000.0
+        },
+        {
+          "date": "2026-06-04 13:30:00",
+          "Open": 435.80999755859375,
+          "High": 436.1499938964844,
+          "Low": 426.4100036621094,
+          "Close": 428.04998779296875,
+          "Volume": 26899500.0
+        },
+        {
+          "date": "2026-06-05 13:30:00",
+          "Open": 428.3399963378906,
+          "High": 429.4700012207031,
+          "Low": 414.3999938964844,
+          "Close": 416.6700134277344,
+          "Volume": 34782200.0
+        },
+        {
+          "date": "2026-06-08 13:30:00",
+          "Open": 414.1400146484375,
+          "High": 417.1600036621094,
+          "Low": 408.55999755859375,
+          "Close": 411.739990234375,
+          "Volume": 32086700.0
+        },
+        {
+          "date": "2026-06-09 13:30:00",
+          "Open": 409.0299987792969,
+          "High": 411.9800109863281,
+          "Low": 398.4800109863281,
+          "Close": 403.4100036621094,
+          "Volume": 35317300.0
+        },
+        {
+          "date": "2026-06-10 13:30:00",
+          "Open": 398.54998779296875,
+          "High": 405.0400085449219,
+          "Low": 397.1600036621094,
+          "Close": 397.3599853515625,
+          "Volume": 32576000.0
+        },
+        {
+          "date": "2026-06-11 13:30:00",
+          "Open": 395.2099914550781,
+          "High": 396.8500061035156,
+          "Low": 384.0,
+          "Close": 390.3399963378906,
+          "Volume": 47224100.0
+        },
+        {
+          "date": "2026-06-12 13:30:00",
+          "Open": 391.42999267578125,
+          "High": 391.739990234375,
+          "Low": 382.2699890136719,
+          "Close": 390.739990234375,
+          "Volume": 34865800.0
+        },
+        {
+          "date": "2026-06-15 13:30:00",
+          "Open": 396.79998779296875,
+          "High": 401.75,
+          "Low": 392.8500061035156,
+          "Close": 399.760009765625,
+          "Volume": 32266400.0
+        },
+        {
+          "date": "2026-06-16 13:30:00",
+          "Open": 395.7900085449219,
+          "High": 396.8399963378906,
+          "Low": 390.69000244140625,
+          "Close": 393.8299865722656,
+          "Volume": 31506800.0
+        },
+        {
+          "date": "2026-06-17 13:30:00",
+          "Open": 390.25,
+          "High": 390.3699951171875,
+          "Low": 377.32000732421875,
+          "Close": 378.9100036621094,
+          "Volume": 41987800.0
+        },
+        {
+          "date": "2026-06-18 13:30:00",
+          "Open": 377.82000732421875,
+          "High": 381.3699951171875,
+          "Low": 373.2799987792969,
+          "Close": 379.3999938964844,
+          "Volume": 59714200.0
+        },
+        {
+          "date": "2026-06-22 13:30:00",
+          "Open": 375.739990234375,
+          "High": 381.6300048828125,
+          "Low": 367.07000732421875,
+          "Close": 367.3399963378906,
+          "Volume": 45171100.0
+        },
+        {
+          "date": "2026-06-23 13:30:00",
+          "Open": 372.3800048828125,
+          "High": 377.2200012207031,
+          "Low": 370.6700134277344,
+          "Close": 373.94000244140625,
+          "Volume": 40647600.0
+        },
+        {
+          "date": "2026-06-24 13:30:00",
+          "Open": 371.57000732421875,
+          "High": 378.8800048828125,
+          "Low": 364.7799987792969,
+          "Close": 365.4599914550781,
+          "Volume": 44509900.0
+        },
+        {
+          "date": "2026-06-25 13:30:00",
+          "Open": 362.7699890136719,
+          "High": 364.2300109863281,
+          "Low": 349.20001220703125,
+          "Close": 352.8299865722656,
+          "Volume": 66179000.0
+        },
+        {
+          "date": "2026-06-26 13:30:00",
+          "Open": 357.1499938964844,
+          "High": 376.6099853515625,
+          "Low": 355.42999267578125,
+          "Close": 372.9700012207031,
+          "Volume": 186201600.0
+        },
+        {
+          "date": "2026-06-29 13:30:00",
+          "Open": 377.5,
+          "High": 380.5,
+          "Low": 359.8999938964844,
+          "Close": 368.57000732421875,
+          "Volume": 51229900.0
+        },
+        {
+          "date": "2026-06-30 13:30:00",
+          "Open": 371.0299987792969,
+          "High": 374.1499938964844,
+          "Low": 367.45001220703125,
+          "Close": 373.0199890136719,
+          "Volume": 44945700.0
+        },
+        {
+          "date": "2026-07-01 13:30:00",
+          "Open": 380.8299865722656,
+          "High": 388.8299865722656,
+          "Low": 374.8900146484375,
+          "Close": 384.2799987792969,
+          "Volume": 48065800.0
+        },
+        {
+          "date": "2026-07-02 13:30:00",
+          "Open": 384.4800109863281,
+          "High": 392.20001220703125,
+          "Low": 383.70001220703125,
+          "Close": 390.489990234375,
+          "Volume": 42128900.0
+        }
+      ],
+      "AMZN": [
+        {
+          "date": "2026-06-03 13:30:00",
+          "Open": 254.6999969482422,
+          "High": 257.0899963378906,
+          "Low": 247.7100067138672,
+          "Close": 250.02000427246094,
+          "Volume": 51394200.0
+        },
+        {
+          "date": "2026-06-04 13:30:00",
+          "Open": 253.1199951171875,
+          "High": 255.8300018310547,
+          "Low": 251.75,
+          "Close": 253.7899932861328,
+          "Volume": 35609800.0
+        },
+        {
+          "date": "2026-06-05 13:30:00",
+          "Open": 254.25999450683594,
+          "High": 256.3800048828125,
+          "Low": 245.77999877929688,
+          "Close": 246.02999877929688,
+          "Volume": 55607800.0
+        },
+        {
+          "date": "2026-06-08 13:30:00",
+          "Open": 246.67999267578125,
+          "High": 249.4199981689453,
+          "Low": 243.36000061035156,
+          "Close": 245.22000122070312,
+          "Volume": 33899500.0
+        },
+        {
+          "date": "2026-06-09 13:30:00",
+          "Open": 247.72999572753906,
+          "High": 250.42999267578125,
+          "Low": 240.39999389648438,
+          "Close": 244.19000244140625,
+          "Volume": 44425400.0
+        },
+        {
+          "date": "2026-06-10 13:30:00",
+          "Open": 243.61000061035156,
+          "High": 244.07000732421875,
+          "Low": 237.4499969482422,
+          "Close": 238.0,
+          "Volume": 38590200.0
+        },
+        {
+          "date": "2026-06-11 13:30:00",
+          "Open": 237.92999267578125,
+          "High": 242.13999938964844,
+          "Low": 235.17999267578125,
+          "Close": 241.50999450683594,
+          "Volume": 41335400.0
+        },
+        {
+          "date": "2026-06-12 13:30:00",
+          "Open": 243.2100067138672,
+          "High": 243.36000061035156,
+          "Low": 233.58999633789062,
+          "Close": 238.5500030517578,
+          "Volume": 51186600.0
+        },
+        {
+          "date": "2026-06-15 13:30:00",
+          "Open": 245.02000427246094,
+          "High": 247.80999755859375,
+          "Low": 244.72999572753906,
+          "Close": 246.02000427246094,
+          "Volume": 41711600.0
+        },
+        {
+          "date": "2026-06-16 13:30:00",
+          "Open": 248.0,
+          "High": 249.50999450683594,
+          "Low": 245.4499969482422,
+          "Close": 246.0,
+          "Volume": 35187400.0
+        },
+        {
+          "date": "2026-06-17 13:30:00",
+          "Open": 244.89999389648438,
+          "High": 245.91000366210938,
+          "Low": 236.0,
+          "Close": 237.5,
+          "Volume": 44780800.0
+        },
+        {
+          "date": "2026-06-18 13:30:00",
+          "Open": 240.1199951171875,
+          "High": 245.72999572753906,
+          "Low": 236.02000427246094,
+          "Close": 244.38999938964844,
+          "Volume": 75624400.0
+        },
+        {
+          "date": "2026-06-22 13:30:00",
+          "Open": 240.0800018310547,
+          "High": 242.0,
+          "Low": 232.24000549316406,
+          "Close": 232.7899932861328,
+          "Volume": 68388500.0
+        },
+        {
+          "date": "2026-06-23 13:30:00",
+          "Open": 232.5500030517578,
+          "High": 236.8699951171875,
+          "Low": 232.0,
+          "Close": 234.11000061035156,
+          "Volume": 60492600.0
+        },
+        {
+          "date": "2026-06-24 13:30:00",
+          "Open": 233.85000610351562,
+          "High": 242.4199981689453,
+          "Low": 232.9499969482422,
+          "Close": 234.27000427246094,
+          "Volume": 70282600.0
+        },
+        {
+          "date": "2026-06-25 13:30:00",
+          "Open": 232.02000427246094,
+          "High": 232.32000732421875,
+          "Low": 225.5500030517578,
+          "Close": 227.00999450683594,
+          "Volume": 77674100.0
+        },
+        {
+          "date": "2026-06-26 13:30:00",
+          "Open": 227.2100067138672,
+          "High": 233.89999389648438,
+          "Low": 226.1300048828125,
+          "Close": 232.69000244140625,
+          "Volume": 248372100.0
+        },
+        {
+          "date": "2026-06-29 13:30:00",
+          "Open": 234.22000122070312,
+          "High": 249.7100067138672,
+          "Low": 233.8000030517578,
+          "Close": 240.13999938964844,
+          "Volume": 77619200.0
+        },
+        {
+          "date": "2026-06-30 13:30:00",
+          "Open": 237.35000610351562,
+          "High": 241.5399932861328,
+          "Low": 237.1699981689453,
+          "Close": 238.33999633789062,
+          "Volume": 66228300.0
+        },
+        {
+          "date": "2026-07-01 13:30:00",
+          "Open": 239.75,
+          "High": 244.89999389648438,
+          "Low": 234.89999389648438,
+          "Close": 241.6999969482422,
+          "Volume": 53829900.0
+        },
+        {
+          "date": "2026-07-02 13:30:00",
+          "Open": 241.61000061035156,
+          "High": 246.72000122070312,
+          "Low": 241.0800018310547,
+          "Close": 242.6699981689453,
+          "Volume": 48246400.0
+        }
+      ],
+      "TSLA": [
+        {
+          "date": "2026-06-03 13:30:00",
+          "Open": 418.70001220703125,
+          "High": 433.6000061035156,
+          "Low": 416.0,
+          "Close": 423.70001220703125,
+          "Volume": 44500700.0
+        },
+        {
+          "date": "2026-06-04 13:30:00",
+          "Open": 419.8399963378906,
+          "High": 426.3500061035156,
+          "Low": 417.1600036621094,
+          "Close": 418.45001220703125,
+          "Volume": 35323300.0
+        },
+        {
+          "date": "2026-06-05 13:30:00",
+          "Open": 420.5,
+          "High": 424.67999267578125,
+          "Low": 388.5899963378906,
+          "Close": 391.0,
+          "Volume": 63420200.0
+        },
+        {
+          "date": "2026-06-08 13:30:00",
+          "Open": 396.3299865722656,
+          "High": 412.94000244140625,
+          "Low": 394.7200012207031,
+          "Close": 408.95001220703125,
+          "Volume": 50328800.0
+        },
+        {
+          "date": "2026-06-09 13:30:00",
+          "Open": 411.0299987792969,
+          "High": 418.5,
+          "Low": 384.239990234375,
+          "Close": 396.67999267578125,
+          "Volume": 59940200.0
+        },
+        {
+          "date": "2026-06-10 13:30:00",
+          "Open": 391.5400085449219,
+          "High": 397.0899963378906,
+          "Low": 380.1499938964844,
+          "Close": 381.5899963378906,
+          "Volume": 49695600.0
+        },
+        {
+          "date": "2026-06-11 13:30:00",
+          "Open": 388.2799987792969,
+          "High": 399.5400085449219,
+          "Low": 380.6600036621094,
+          "Close": 399.1499938964844,
+          "Volume": 45324300.0
+        },
+        {
+          "date": "2026-06-12 13:30:00",
+          "Open": 399.489990234375,
+          "High": 406.67999267578125,
+          "Low": 386.760009765625,
+          "Close": 406.42999267578125,
+          "Volume": 63514500.0
+        },
+        {
+          "date": "2026-06-15 13:30:00",
+          "Open": 412.3699951171875,
+          "High": 416.0,
+          "Low": 407.1000061035156,
+          "Close": 411.1499938964844,
+          "Volume": 45620500.0
+        },
+        {
+          "date": "2026-06-16 13:30:00",
+          "Open": 404.1099853515625,
+          "High": 412.4200134277344,
+          "Low": 400.5400085449219,
+          "Close": 404.6600036621094,
+          "Volume": 40255500.0
+        },
+        {
+          "date": "2026-06-17 13:30:00",
+          "Open": 401.5299987792969,
+          "High": 405.94000244140625,
+          "Low": 393.760009765625,
+          "Close": 396.3800048828125,
+          "Volume": 43534300.0
+        },
+        {
+          "date": "2026-06-18 13:30:00",
+          "Open": 398.1000061035156,
+          "High": 402.5199890136719,
+          "Low": 384.70001220703125,
+          "Close": 400.489990234375,
+          "Volume": 58384700.0
+        },
+        {
+          "date": "2026-06-22 13:30:00",
+          "Open": 394.8500061035156,
+          "High": 414.75,
+          "Low": 394.3999938964844,
+          "Close": 405.04998779296875,
+          "Volume": 47819500.0
+        },
+        {
+          "date": "2026-06-23 13:30:00",
+          "Open": 392.6099853515625,
+          "High": 392.8699951171875,
+          "Low": 379.05999755859375,
+          "Close": 381.6099853515625,
+          "Volume": 50420200.0
+        },
+        {
+          "date": "2026-06-24 13:30:00",
+          "Open": 380.0799865722656,
+          "High": 384.5799865722656,
+          "Low": 373.04998779296875,
+          "Close": 375.5299987792969,
+          "Volume": 37081400.0
+        },
+        {
+          "date": "2026-06-25 13:30:00",
+          "Open": 375.2699890136719,
+          "High": 379.1199951171875,
+          "Low": 371.2200012207031,
+          "Close": 375.1199951171875,
+          "Volume": 30138800.0
+        },
+        {
+          "date": "2026-06-26 13:30:00",
+          "Open": 370.1499938964844,
+          "High": 387.79998779296875,
+          "Low": 368.6000061035156,
+          "Close": 379.7099914550781,
+          "Volume": 53434100.0
+        },
+        {
+          "date": "2026-06-29 13:30:00",
+          "Open": 381.7900085449219,
+          "High": 413.2699890136719,
+          "Low": 379.29998779296875,
+          "Close": 411.8399963378906,
+          "Volume": 57645800.0
+        },
+        {
+          "date": "2026-06-30 13:30:00",
+          "Open": 406.0,
+          "High": 424.5400085449219,
+          "Low": 406.0,
+          "Close": 420.6000061035156,
+          "Volume": 43385600.0
+        },
+        {
+          "date": "2026-07-01 13:30:00",
+          "Open": 421.4599914550781,
+          "High": 432.8599853515625,
+          "Low": 418.0899963378906,
+          "Close": 425.29998779296875,
+          "Volume": 40127900.0
+        },
+        {
+          "date": "2026-07-02 13:30:00",
+          "Open": 428.010009765625,
+          "High": 432.3500061035156,
+          "Low": 389.29998779296875,
+          "Close": 393.45001220703125,
+          "Volume": 73717700.0
+        }
+      ]
+    },
+    "news": {
+      "AAPL": [
+        {
+          "title": "Apple Is Reportedly Planning 5 New iPhones -- Including a $2,500 Foldable. Here's What It Means for the Stock.",
+          "link": "https://finance.yahoo.com/m/5fbb751f-177e-3b54-bf70-0570b0323ac5/apple-is-reportedly-planning.html",
+          "publisher": "Motley Fool",
+          "providerPublishTime": 1783197420
+        },
+        {
+          "title": "Warren Buffett's Berkshire Hathaway Owns $41 Billion of Alphabet Stock: Here Are 3 Possible Reasons Why",
+          "link": "https://finance.yahoo.com/m/11ff24ff-f075-3245-b58e-c918c20b3f84/warren-buffett%27s-berkshire.html",
+          "publisher": "Motley Fool",
+          "providerPublishTime": 1783192800
+        },
+        {
+          "title": "Apple (AAPL) Plans 10 Million Foldables And An iPhone Ultra Push",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-plans-10-million-191027338.html",
+          "publisher": "Simply Wall St.",
+          "providerPublishTime": 1783192227
+        },
+        {
+          "title": "AI Can't Thrive Without This Stock (Hint: It's Not Nvidia)",
+          "link": "https://finance.yahoo.com/m/2487d2cf-0e9b-3112-86fe-83a0b4f4da69/ai-can%27t-thrive-without-this.html",
+          "publisher": "Motley Fool",
+          "providerPublishTime": 1783187820
+        },
+        {
+          "title": "DGRO vs. VIG: Which Dividend-Growth ETF Compounds Your Income Faster?",
+          "link": "https://finance.yahoo.com/m/ed856381-c6ab-3518-8648-df5d2f570106/dgro-vs.-vig%3A-which.html",
+          "publisher": "24/7 Wall St.",
+          "providerPublishTime": 1783185717
+        }
+      ],
+      "GOOGL": [
+        {
+          "title": "Bill Ackman reveals why he still likes Alphabet, Amazon, and Meta stocks",
+          "link": "https://finance.yahoo.com/m/4112b907-3ab5-380a-b492-e1a34da92188/bill-ackman-reveals-why-he.html",
+          "publisher": "TheStreet",
+          "providerPublishTime": 1783199220
+        },
+        {
+          "title": "Warren Buffett's Berkshire Hathaway Owns $41 Billion of Alphabet Stock: Here Are 3 Possible Reasons Why",
+          "link": "https://finance.yahoo.com/m/11ff24ff-f075-3245-b58e-c918c20b3f84/warren-buffett%27s-berkshire.html",
+          "publisher": "Motley Fool",
+          "providerPublishTime": 1783192800
+        },
+        {
+          "title": "Why Arm Is a Strong Buy Despite the 35% Pullback From Peak Levels",
+          "link": "https://finance.yahoo.com/m/aea3713f-016c-39a7-9cf7-6d5bc3657252/why-arm-is-a-strong-buy.html",
+          "publisher": "24/7 Wall St.",
+          "providerPublishTime": 1783182656
+        },
+        {
+          "title": "Reddit (RDDT) Eyes Higher AI Data Fees And Launches Shopping Ad Tools",
+          "link": "https://finance.yahoo.com/technology/ai/articles/reddit-rddt-eyes-higher-ai-161412422.html",
+          "publisher": "Simply Wall St.",
+          "providerPublishTime": 1783181652
+        },
+        {
+          "title": "1 Unstoppable Stock to Buy Before It Joins Google, Apple, Microsoft, and Nvidia in the $3 Trillion Club",
+          "link": "https://finance.yahoo.com/m/4c06cd36-b943-38b3-8e91-b388f69f49c0/1-unstoppable-stock-to-buy.html",
+          "publisher": "Motley Fool",
+          "providerPublishTime": 1783181100
+        }
+      ],
+      "MSFT": [
+        {
+          "title": "ChatGPT-Maker OpenAI Is Headed for a $1 Trillion IPO. The Biggest Winner Could Be Microsoft Stock.",
+          "link": "https://finance.yahoo.com/m/250b3014-9952-34e3-85f8-6008ef37cdbe/chatgpt-maker-openai-is.html",
+          "publisher": "Motley Fool",
+          "providerPublishTime": 1783203000
+        },
+        {
+          "title": "Nvidia (NVDA) Backs Verkada And Brings In A Microsoft Veteran To Lead Sales",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-backs-verkada-brings-210955795.html",
+          "publisher": "Simply Wall St.",
+          "providerPublishTime": 1783199395
+        },
+        {
+          "title": "AI Can't Thrive Without This Stock (Hint: It's Not Nvidia)",
+          "link": "https://finance.yahoo.com/m/2487d2cf-0e9b-3112-86fe-83a0b4f4da69/ai-can%27t-thrive-without-this.html",
+          "publisher": "Motley Fool",
+          "providerPublishTime": 1783187820
+        },
+        {
+          "title": "Bill Ackman Drives a Tesla: Here's Why He Won't Buy the Stock",
+          "link": "https://finance.yahoo.com/m/0e5930e5-b8ff-3b87-ae9f-97ed354f083c/bill-ackman-drives-a-tesla%3A.html",
+          "publisher": "Motley Fool",
+          "providerPublishTime": 1783184220
+        },
+        {
+          "title": "Why Arm Is a Strong Buy Despite the 35% Pullback From Peak Levels",
+          "link": "https://finance.yahoo.com/m/aea3713f-016c-39a7-9cf7-6d5bc3657252/why-arm-is-a-strong-buy.html",
+          "publisher": "24/7 Wall St.",
+          "providerPublishTime": 1783182656
+        }
+      ],
+      "AMZN": [
+        {
+          "title": "Bill Ackman reveals why he still likes Alphabet, Amazon, and Meta stocks",
+          "link": "https://finance.yahoo.com/m/4112b907-3ab5-380a-b492-e1a34da92188/bill-ackman-reveals-why-he.html",
+          "publisher": "TheStreet",
+          "providerPublishTime": 1783199220
+        },
+        {
+          "title": "Bill Ackman Drives a Tesla: Here's Why He Won't Buy the Stock",
+          "link": "https://finance.yahoo.com/m/0e5930e5-b8ff-3b87-ae9f-97ed354f083c/bill-ackman-drives-a-tesla%3A.html",
+          "publisher": "Motley Fool",
+          "providerPublishTime": 1783184220
+        },
+        {
+          "title": "Sprouts Farmers Market (SFM) Takes Over A Never Opened Amazon Fresh Store",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sprouts-farmers-market-sfm-takes-141028129.html",
+          "publisher": "Simply Wall St.",
+          "providerPublishTime": 1783174228
+        },
+        {
+          "title": "Hers’s Why NVIDIA (NVDA) is One of the Best AI and Technology Stocks to Buy Now",
+          "link": "https://finance.yahoo.com/technology/ai/articles/hers-why-nvidia-nvda-one-140847423.html",
+          "publisher": "Insider Monkey",
+          "providerPublishTime": 1783174127
+        },
+        {
+          "title": "Here’s What Amazon.com Inc (AMZN) Is Doing in India Lately",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-com-inc-amzn-doing-134425618.html",
+          "publisher": "Insider Monkey",
+          "providerPublishTime": 1783172665
+        }
+      ],
+      "TSLA": [
+        {
+          "title": "Cathie Wood buys $38.1 million of tumbling megacap stock",
+          "link": "https://finance.yahoo.com/m/1b8e61fd-3c5a-3c76-8e0b-52f97db71bea/cathie-wood-buys-%2438.1.html",
+          "publisher": "TheStreet",
+          "providerPublishTime": 1783211820
+        },
+        {
+          "title": "Rivian Just Raised Its 2026 Outlook While Tesla Stock Stumbled. Is the Electric Vehicle Underdog Finally a Buy?",
+          "link": "https://finance.yahoo.com/m/3fba89a5-4d92-368c-a0d8-51b73128364c/rivian-just-raised-its-2026.html",
+          "publisher": "Motley Fool",
+          "providerPublishTime": 1783206600
+        },
+        {
+          "title": "Bill Ackman Drives a Tesla: Here's Why He Won't Buy the Stock",
+          "link": "https://finance.yahoo.com/m/0e5930e5-b8ff-3b87-ae9f-97ed354f083c/bill-ackman-drives-a-tesla%3A.html",
+          "publisher": "Motley Fool",
+          "providerPublishTime": 1783184220
+        },
+        {
+          "title": "Elizabeth Warren Says ‘Wealth Is Funneled to the Wealthy’ — Elon Musk Can Be a Trillionaire But Millions of Americans Can’t Afford to See a Doctor",
+          "link": "https://finance.yahoo.com/m/87152f75-55ac-3ea1-b106-3ca684e1e401/elizabeth-warren-says-%E2%80%98wealth.html",
+          "publisher": "Benzinga",
+          "providerPublishTime": 1783173668
+        },
+        {
+          "title": "Here’s Why Tesla Inc. (TSLA) is a Top Robotics Stock to Buy Amid Robotaxi and Optimus Developments",
+          "link": "https://finance.yahoo.com/technology/ai/articles/why-tesla-inc-tsla-top-134753521.html",
+          "publisher": "Insider Monkey",
+          "providerPublishTime": 1783172873
+        }
+      ]
+    },
+    "timestamp": "2026-07-05T10:54:29.172127"
+  },
+  "a_share_market": {
+    "realtime": [],
+    "marketOverview": {
+      "上证指数": {
+        "date": "2026-07-03",
+        "open": 4031.335,
+        "high": 4073.88,
+        "low": 4027.255,
+        "close": 4043.643,
+        "volume": 60200973800
+      },
+      "深证成指": {
+        "date": "2026-07-03",
+        "open": 15480.117,
+        "high": 15823.054,
+        "low": 15432.893,
+        "close": 15597.512,
+        "volume": 78548548047
+      },
+      "创业板指": {
+        "date": "2026-07-03",
+        "open": 4010.819,
+        "high": 4115.628,
+        "low": 3985.363,
+        "close": 4019.934,
+        "volume": 22845319540
+      },
+      "timestamp": "2026-07-05T10:54:34.872780"
+    },
+    "hotStocks": [
+      {
+        "date": "0",
+        "序号": 1,
+        "代码": "000021",
+        "名称": "深科技",
+        "上榜日": 

@@ -1,0 +1,35 @@
+# 股票数据抓取机器人 Docker Compose 配置
+
+version: '3.8'
+
+services:
+  # 数据抓取服务
+  stock-bot:
+    build: .
+    container_name: stock-data-bot
+    volumes:
+      # 挂载配置文件
+      - ./config.json:/app/config.json
+      # 挂载数据目录
+      - ./data:/app/data
+    environment:
+      - TZ=Asia/Shanghai
+    restart: "no"
+    
+  # 定时任务服务（可选）
+  scheduler:
+    build: .
+    container_name: stock-scheduler
+    command: >
+      sh -c "while true; do 
+        echo '开始抓取数据...';
+        python src/main.py;
+        echo '抓取完成，等待6小时...';
+        sleep 21600;
+      done"
+    volumes:
+      - ./config.json:/app/config.json
+      - ./data:/app/data
+    environment:
+      - TZ=Asia/Shanghai
+    restart: unless-stopped

@@ -1,0 +1,202 @@
+{
+  "AAPL": {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "currentPrice": 308.63,
+    "previousClose": null,
+    "currency": "USD",
+    "exchange": "NMS",
+    "marketCap": null,
+    "timestamp": "2026-07-05T10:47:54.365967"
+  },
+  "GOOGL": {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc.",
+    "currentPrice": 359.91,
+    "previousClose": null,
+    "currency": "USD",
+    "exchange": "NMS",
+    "marketCap": null,
+    "timestamp": "2026-07-05T10:47:55.570360"
+  },
+  "MSFT": {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "currentPrice": 390.49,
+    "previousClose": null,
+    "currency": "USD",
+    "exchange": "NMS",
+    "marketCap": null,
+    "timestamp": "2026-07-05T10:47:56.800876"
+  },
+  "AMZN": {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "currentPrice": 242.67,
+    "previousClose": null,
+    "currency": "USD",
+    "exchange": "NMS",
+    "marketCap": null,
+    "timestamp": "2026-07-05T10:47:58.052241"
+  },
+  "TSLA": {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "currentPrice": 393.45,
+    "previousClose": null,
+    "currency": "USD",
+    "exchange": "NMS",
+    "marketCap": null,
+    "timestamp": "2026-07-05T10:47:59.628940"
+  },
+  "NVDA": {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corporation",
+    "currentPrice": 194.83,
+    "previousClose": null,
+    "currency": "USD",
+    "exchange": "NMS",
+    "marketCap": null,
+    "timestamp": "2026-07-05T10:48:01.282723"
+  },
+  "META": {
+    "symbol": "META",
+    "name": "Meta Platforms, Inc.",
+    "currentPrice": 582.9,
+    "previousClose": null,
+    "currency": "USD",
+    "exchange": "NMS",
+    "marketCap": null,
+    "timestamp": "2026-07-05T10:48:02.489992"
+  },
+  "JPM": {
+    "symbol": "JPM",
+    "name": "JP Morgan Chase & Co.",
+    "currentPrice": 334.47,
+    "previousClose": null,
+    "currency": "USD",
+    "exchange": "NYQ",
+    "marketCap": null,
+    "timestamp": "2026-07-05T10:48:03.759564"
+  },
+  "INTC": {
+    "symbol": "INTC",
+    "name": "Intel Corporation",
+    "currentPrice": 120.35,
+    "previousClose": null,
+    "currency": "USD",
+    "exchange": "NMS",
+    "marketCap": null,
+    "timestamp": "2026-07-05T10:48:04.998547"
+  },
+  "AXTI": {
+    "symbol": "AXTI",
+    "name": "AXT Inc",
+    "currentPrice": 56.62,
+    "previousClose": null,
+    "currency": "USD",
+    "exchange": "NMS",
+    "marketCap": null,
+    "timestamp": "2026-07-05T10:48:06.231139"
+  },
+  "MU": {
+    "symbol": "MU",
+    "name": "Micron Technology, Inc.",
+    "currentPrice": 975.56,
+    "previousClose": null,
+    "currency": "USD",
+    "exchange": "NMS",
+    "marketCap": null,
+    "timestamp": "2026-07-05T10:48:07.471609"
+  },
+  "IREN": {
+    "symbol": "IREN",
+    "name": "IREN LIMITED",
+    "currentPrice": 38.82,
+    "previousClose": null,
+    "currency": "USD",
+    "exchange": "NMS",
+    "marketCap": null,
+    "timestamp": "2026-07-05T10:48:08.718083"
+  },
+  "RKLB": {
+    "symbol": "RKLB",
+    "name": "Rocket Lab Corporation",
+    "currentPrice": 100.46,
+    "previousClose": null,
+    "currency": "USD",
+    "exchange": "NMS",
+    "marketCap": null,
+    "timestamp": "2026-07-05T10:48:09.927634"
+  },
+  "TSM": {
+    "symbol": "TSM",
+    "name": "Taiwan Semiconductor Manufactur",
+    "currentPrice": 434.16,
+    "previousClose": null,
+    "currency": "USD",
+    "exchange": "NYQ",
+    "marketCap": null,
+    "timestamp": "2026-07-05T10:48:11.159196"
+  },
+  "COHR": {
+    "symbol": "COHR",
+    "name": "Coherent Corp.",
+    "currentPrice": 333.36,
+    "previousClose": null,
+    "currency": "USD",
+    "exchange": "NYQ",
+    "marketCap": null,
+    "timestamp": "2026-07-05T10:48:12.473774"
+  },
+  "NBIS": {
+    "symbol": "NBIS",
+    "name": "Nebius Group N.V.",
+    "currentPrice": 215.62,
+    "previousClose": null,
+    "currency": "USD",
+    "exchange": "NMS",
+    "marketCap": null,
+    "timestamp": "2026-07-05T10:48:13.716012"
+  },
+  "AVGO": {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc.",
+    "currentPrice": 360.45,
+    "previousClose": null,
+    "currency": "USD",
+    "exchange": "NMS",
+    "marketCap": null,
+    "timestamp": "2026-07-05T10:48:15.409117"
+  },
+  "MRVL": {
+    "symbol": "MRVL",
+    "name": "Marvell Technology, Inc.",
+    "currentPrice": 245.29,
+    "previousClose": null,
+    "currency": "USD",
+    "exchange": "NMS",
+    "marketCap": null,
+    "timestamp": "2026-07-05T10:48:16.991344"
+  },
+  "HOOD": {
+    "symbol": "HOOD",
+    "name": "Robinhood Markets, Inc.",
+    "currentPrice": 112.73,
+    "previousClose": null,
+    "currency": "USD",
+    "exchange": "NMS",
+    "marketCap": null,
+    "timestamp": "2026-07-05T10:48:18.221421"
+  },
+  "AAOI": {
+    "symbol": "AAOI",
+    "name": "Applied Optoelectronics, Inc.",
+    "currentPrice": 120.95,
+    "previousClose": null,
+    "currency": "USD",
+    "exchange": "NGM",
+    "marketCap": null,
+    "timestamp": "2026-07-05T10:48:19.753868"
+  }
+}

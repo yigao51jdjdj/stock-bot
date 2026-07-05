@@ -1,0 +1,59 @@
+{
+  "timestamp": "20260705_105103",
+  "global_market": {
+    "current": {
+      "AAPL": {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "currentPrice": 308.63,
+        "previousClose": null,
+        "currency": "USD",
+        "exchange": "NMS",
+        "marketCap": null,
+        "timestamp": "2026-07-05T10:51:03.831047"
+      },
+      "GOOGL": {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc.",
+        "currentPrice": 359.91,
+        "previousClose": null,
+        "currency": "USD",
+        "exchange": "NMS",
+        "marketCap": null,
+        "timestamp": "2026-07-05T10:51:05.000871"
+      },
+      "MSFT": {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "currentPrice": 390.49,
+        "previousClose": null,
+        "currency": "USD",
+        "exchange": "NMS",
+        "marketCap": null,
+        "timestamp": "2026-07-05T10:51:06.096637"
+      },
+      "AMZN": {
+        "symbol": "AMZN",
+        "name": "Amazon.com, Inc.",
+        "currentPrice": 242.67,
+        "previousClose": null,
+        "currency": "USD",
+        "exchange": "NMS",
+        "marketCap": null,
+        "timestamp": "2026-07-05T10:51:07.261998"
+      },
+      "TSLA": {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "currentPrice": 393.45,
+        "previousClose": null,
+        "currency": "USD",
+        "exchange": "NMS",
+        "marketCap": null,
+        "timestamp": "2026-07-05T10:51:08.428217"
+      }
+    },
+    "historical": {
+      "AAPL": {
+        "Open": {
+          

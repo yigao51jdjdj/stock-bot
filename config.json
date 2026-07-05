@@ -1,0 +1,62 @@
+{
+  "global_symbols": [
+    "AAPL",
+    "GOOGL",
+    "MSFT",
+    "AMZN",
+    "TSLA",
+    "NVDA",
+    "META",
+    "JPM",
+    "INTC",
+    "AXTI",
+    "MU",
+    "IREN",
+    "RKLB",
+    "TSM",
+    "COHR",
+    "NBIS",
+    "AVGO",
+    "MRVL",
+    "HOOD",
+    "AAOI"
+  ],
+  "a_share_symbols": [
+    "600519",
+    "000858",
+    "300750",
+    "601318",
+    "000001"
+  ],
+  "data_dir": "data",
+  "output_format": "json",
+  "fetch_historical_days": 30,
+  "schedule": {
+    "cron": "0 1 * * 1-5",
+    "timezone": "Asia/Shanghai"
+  },
+  "notifications": {
+    "telegram": {
+      "enabled": false,
+      "bot_token": "YOUR_BOT_TOKEN",
+      "chat_id": "YOUR_CHAT_ID"
+    },
+    "dingtalk": {
+      "enabled": false,
+      "webhook_url": "YOUR_WEBHOOK_URL"
+    },
+    "wechat": {
+      "enabled": false,
+      "webhook_url": "YOUR_WEBHOOK_URL"
+    },
+    "email": {
+      "enabled": true,
+      "smtp_host": "smtp.mail.me.com",
+      "smtp_port": 465,
+      "use_ssl": true,
+      "sender": "gao_hong1@icloud.com",
+      "password": "cudt-imxa-cwct-tfze",
+      "receiver": "gao_hong1@icloud.com"
+    }
+  }
+}
