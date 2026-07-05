@@ -115,11 +115,13 @@ class StockMessageFormatter:
         lines.append("")
 
         # 分组
-        tech = ['AAPL', 'GOOGL', 'MSFT', 'AMZN', 'TSLA', 'NVDA', 'META', 'INTC', 'AVGO', 'MRVL']
-        semi = ['MU', 'TSM', 'COHR', 'AXTI', 'AAOI']
-        other = ['JPM', 'IREN', 'RKLB', 'NBIS', 'HOOD']
+        index_etf = ['QQQ', 'SPY', 'GLD', 'EWJ']
+        crypto_ai = ['MSTR', 'IREN']
+        semi = ['NVDA', 'AVGO', 'MRVL', 'MU', 'TSM', 'COHR', 'AXTI', 'AAOI', 'NBIS']
+        intl = ['005930.KS', 'SKHY']
+        other = ['SNDK', 'CRCL', 'CCXI', 'JPM', 'RKLB', 'HOOD']
 
-        groups = [("科技股", tech), ("半导体", semi), ("其他", other)]
+        groups = [("指数/ETF/黄金/日本", index_etf), ("加密/AI", crypto_ai), ("半导体", semi), ("国际", intl), ("其他", other)]
 
         for name, syms in groups:
             lines.append(f"【{name}】")
