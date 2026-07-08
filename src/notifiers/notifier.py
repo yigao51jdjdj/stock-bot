@@ -119,10 +119,11 @@ class StockMessageFormatter:
         index_etf = ['QQQ', 'SPY', 'GLD', 'EWJ']
         crypto_ai = ['MSTR', 'IREN']
         semi = ['NVDA', 'AVGO', 'MRVL', 'MU', 'TSM', 'COHR', 'AXTI', 'AAOI', 'NBIS']
+        aerospace = ['RKLB', 'SPCX', 'ASTS']
         intl = ['005930.KS', 'SKHY']
-        other = ['SNDK', 'CRCL', 'CCXI', 'JPM', 'RKLB', 'HOOD']
+        other = ['SNDK', 'CRCL', 'CCXI', 'JPM', 'HOOD']
 
-        groups = [("指数/ETF", index_etf), ("加密/AI", crypto_ai), ("半导体", semi), ("国际", intl), ("其他", other)]
+        groups = [("指数/ETF", index_etf), ("加密/AI", crypto_ai), ("半导体", semi), ("航天", aerospace), ("国际", intl), ("其他", other)]
 
         lines.append(f"{'代码':10s} | {'价格':>10s} | {'涨跌':>8s}")
         lines.append("-" * 35)
