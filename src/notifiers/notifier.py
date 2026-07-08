@@ -132,9 +132,12 @@ class StockMessageFormatter:
             for sym in syms:
                 if sym in stock_data and 'currentPrice' in stock_data[sym]:
                     d = stock_data[sym]
-                    p = d.get('currentPrice', 0)
+                    p = d.get('currentPrice')
                     c = StockMessageFormatter._fmt_chg(d.get('changePercent'))
-                    lines.append(f"{sym:10s} | ${p:>9.2f} | {c:>8s}")
+                    if p is not None:
+                        lines.append(f"{sym:10s} | ${p:>9.2f} | {c:>8s}")
+                    else:
+                        lines.append(f"{sym:10s} | {'-':>10s} | {c:>8s}")
             lines.append("")
 
         lines.append(f"⏰ {datetime.now().strftime('%Y-%m-%d %H:%M')}")
