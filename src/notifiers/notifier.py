@@ -117,7 +117,7 @@ class StockMessageFormatter:
 
         # 分组
         index_etf = ['QQQ', 'SPY', 'GLD', 'EWJ']
-        crypto_ai = ['MSTR', 'IREN']
+        crypto_ai = ['MSTR', 'IREN', 'PLTR']
         semi = ['NVDA', 'AVGO', 'MRVL', 'MU', 'TSM', 'COHR', 'AXTI', 'AAOI', 'NBIS']
         aerospace = ['RKLB', 'SPCX', 'ASTS']
         intl = ['005930.KS', 'SKHY']
