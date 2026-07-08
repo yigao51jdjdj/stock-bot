@@ -109,9 +109,10 @@ class StockMessageFormatter:
 
     @staticmethod
     def format_summary(stock_data: Dict[str, Dict]) -> str:
-        """格式化汇总消息 - 紧凑格式"""
+        """格式化汇总消息"""
         lines = []
-        lines.append("📈 股票行情汇总")
+        lines.append("📈 股票行情")
+        lines.append("=" * 50)
         lines.append("")
 
         # 分组
@@ -121,7 +122,10 @@ class StockMessageFormatter:
         intl = ['005930.KS', 'SKHY']
         other = ['SNDK', 'CRCL', 'CCXI', 'JPM', 'RKLB', 'HOOD']
 
-        groups = [("指数/ETF/黄金/日本", index_etf), ("加密/AI", crypto_ai), ("半导体", semi), ("国际", intl), ("其他", other)]
+        groups = [("指数/ETF", index_etf), ("加密/AI", crypto_ai), ("半导体", semi), ("国际", intl), ("其他", other)]
+
+        lines.append(f"{'代码':10s} | {'价格':>10s} | {'涨跌':>8s}")
+        lines.append("-" * 35)
 
         for name, syms in groups:
             lines.append(f"【{name}】")
@@ -130,10 +134,7 @@ class StockMessageFormatter:
                     d = stock_data[sym]
                     p = d.get('currentPrice', 0)
                     c = StockMessageFormatter._fmt_chg(d.get('changePercent'))
-                    v = StockMessageFormatter._fmt_vol(d.get('volume'))
-                    h = f"{d['todayHigh']:.2f}" if d.get('todayHigh') else '-'
-                    lo = f"{d['todayLow']:.2f}" if d.get('todayLow') else '-'
-                    lines.append(f"{sym} ${p:.2f} {c} Vol:{v} H:{h} L:{lo}")
+                    lines.append(f"{sym:10s} | ${p:>9.2f} | {c:>8s}")
             lines.append("")
 
         lines.append(f"⏰ {datetime.now().strftime('%Y-%m-%d %H:%M')}")
