@@ -59,8 +59,8 @@ jobs:
         run: |
           cat > config_actions.json << EOF
           {
-            "global_symbols": ["AAPL", "GOOGL", "MSFT", "AMZN", "TSLA", "NVDA", "META", "JPM", "INTC", "AXTI", "MU", "IREN", "RKLB", "TSM", "COHR", "NBIS", "AVGO", "MRVL", "HOOD", "AAOI"],
-            "a_share_symbols": ["600519", "000858", "300750", "601318", "000001"],
+            "global_symbols": ["MSTR", "CRCL", "AXTI", "TSM", "NBIS", "PLTR", "RKLB", "SNDK", "HOOD", "COIN", "ASTS", "MU"],
+            "a_share_symbols": [],
             "data_dir": "data",
             "output_format": "json",
             "notifications": {
