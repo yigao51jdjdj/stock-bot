@@ -1,33 +1,33 @@
-name: Stock Data Scraper
+﻿name: Stock Data Scraper
 
 on:
-  # 定时运行 - 每日三次
+  # 瀹氭椂杩愯 - 姣忔棩涓夋
   schedule:
-    # 早上 9:00 (北京时间)
+    # 鏃╀笂 9:00 (鍖椾含鏃堕棿)
     - cron: '0 1 * * 1-5'
-    # 中午 13:00 (北京时间)
+    # 涓崍 13:00 (鍖椾含鏃堕棿)
     - cron: '0 5 * * 1-5'
-    # 晚上 22:00 (北京时间)
+    # 鏅氫笂 22:00 (鍖椾含鏃堕棿)
     - cron: '0 14 * * 1-5'
 
-  # 手动触发
+  # 鎵嬪姩瑙﹀彂
   workflow_dispatch:
     inputs:
       symbols:
-        description: '股票代码 (逗号分隔)'
+        description: '鑲＄エ浠ｇ爜 (閫楀彿鍒嗛殧)'
         required: false
         default: ''
       output_format:
-        description: '输出格式 (json/csv)'
+        description: '杈撳嚭鏍煎紡 (json/csv)'
         required: false
         default: 'json'
       notify_type:
-        description: '通知类型 (price/summary)'
+        description: '閫氱煡绫诲瀷 (price/summary)'
         required: false
         default: 'summary'
 
 env:
-  PYTHON_VERSION: '3.9'
+  PYTHON_VERSION: '3.10'
 
 jobs:
   scrape:
